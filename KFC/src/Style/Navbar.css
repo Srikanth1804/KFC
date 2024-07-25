@@ -1,0 +1,45 @@
+#nav-list3{
+    border-right: 1px solid black;
+}
+.card-body{
+    background-color: #f8f7f5;
+}
+.font{
+    
+       font-weight: 700;  
+}
+.nav2-font{
+    font-size: small;
+}
+
+@media screen and (max-width:1200px){
+#nav-list3{
+    width: 90px;
+}
+}
+@media screen and (max-width:992px){
+    #nav-list3{
+        width: 80px;
+    }
+    }
+@media screen and (max-width:768px){
+        #bucketcart{
+            width: 90px;
+            margin-left: -25px;
+        }
+        #nav-list3{
+           margin-left: -50px;
+        }
+        }
+@media screen and (min-width:576px) {
+
+    #navbar2{
+        display: none;
+    }  
+}
+@media screen and (max-width:576px) {
+
+    #navbar1{
+        display: none;
+    }  
+}

@@ -1,0 +1,19 @@
+#offer-btn{
+    border: 1px solid black;
+    border-radius: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#offer-btn:hover{
+background-color: black;
+color: white;
+}
+#offerscard{
+    height: 480px;
+}
+@media screen and (max-width:576px) {
+    #offer-btn{
+        padding-left: 20px;
+        padding-right: 20px;
+    }   
+}
