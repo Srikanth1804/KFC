@@ -38,9 +38,9 @@ const Carousel1 = () => {
     },
   };
   return (
-    <div>
+    <div id='nav-carousel'>
 
-      <div className="list-group pt-1 pe-1" id='nav-carousel' style={{position:"sticky",top:"50px",zIndex:"1"}}>
+      <div className="list-group pt-1 pe-1"  style={{position:"sticky",top:"50px",zIndex:"1"}}>
         <Carousel 
         
         swipeable={true}
